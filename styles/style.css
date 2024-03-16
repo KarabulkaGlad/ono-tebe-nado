@@ -1,44 +1,41 @@
 
-.header{
+.header {
   display: flex;
   flex-wrap: nowrap;
   padding: 92px 24px 96px;
 }
 
-.header__menu{
+.header__menu {
   padding: 44px 36px 29px 27px;
 }
 
-.header__links-list{
+.header__links-list {
   display: flex;
   gap: 31px;
+  text-align: left;
   list-style: circle;
   font-weight: 400;
-  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.01em;
-  text-align: left;
   color: #000;
 }
 
-.header__links-list-item{
+.header__links-list-item {
   text-decoration: none;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 
-.header__logo{
+.header__logo {
   max-width: 148px;
   max-height: 105px;
   padding: 1px 6px 0 5px;
 }
 
-
-
-.cover{
+.cover {
   position: relative;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -47,41 +44,41 @@
   z-index: 0;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   inset: 0;
-  background: #000000;
+  background: #000;
   opacity: 0.6;
   z-index: -1;
 }
 
-.cover__title{
+.cover__title {
   padding: 165px 50px 135px;
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
-.cover__title_letter-spacing{
+.cover__title_letter-spacing {
   letter-spacing: 0.6em;
 }
 
-.aligned-text{
+.aligned-text {
   display: block;
 }
 
-.aligned-text:not(:last-child){
+.aligned-text:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.aligned-text:not(:first-child){
+.aligned-text:not(:first-child) {
   line-height: 100px;
 }
 
-.cover__description{
+.cover__description {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,7 +86,7 @@
   color: #FFF;
 }
 
-.cover__description-text{
+.cover__description-text {
   padding: 12px 0 11px 0;
   font-weight: 400;
   font-size: 22px;
@@ -98,15 +95,15 @@
   color: #FFF;
 }
 
-.cover__description-text_first-word-spacing{
+.cover__description-text_first-word-spacing {
   word-spacing: 20px;
 }
 
-.cover__description-text_second-word-spacing{
+.cover__description-text_second-word-spacing {
   word-spacing: 18px;
 }
 
-.bet-button{
+.bet-button {
   padding: 12px 32px;
   background-color: transparent;
   border: 1px solid #FFF;
@@ -121,7 +118,7 @@
   cursor: pointer;
 }
 
-.lots__heading{
+.lots__heading {
   padding-left: 40px;
   font-weight: 700;
   font-size: 40px;
@@ -130,30 +127,30 @@
   color: #000;
 }
 
-.lots{
+.lots {
   padding: 179px 24px 0;
 }
 
-.lots__card-list{
+.lots__card-list {
   display: flex;
-  margin: 27px 0 30px 0;
   gap: 25px;
+  margin: 27px 0 30px 0;
   list-style: none;
 }
-.lots__card-list-item{
+.lots__card-list-item {
   position: relative;
   z-index: 0;
   flex-grow: 1;
   min-height: 563px;
 }
 
-.card-link{
+.card-link {
   display: block;
   height: 100%;
   text-decoration: none;
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -163,7 +160,7 @@
   color: #FFF;
 }
 
-.card__title{
+.card__title {
   font-weight: 700;
   font-size: 22px;
   text-decoration: underline 1px solid #FFF;
@@ -171,13 +168,13 @@
   text-transform: uppercase;
 }
 
-.card__text{
+.card__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
   padding-left: 40px;
   font-weight: 400;
   font-size: 20px;
@@ -187,35 +184,35 @@
   text-underline-offset: 4px;
 }
 
-.card_backgroung-image-config{
+.card_backgroung-image-config {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.card_type_film{
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.card_type_book{
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.card_type_picture{
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.about{
+.about {
   padding: 146px 24px 180px;
 }
 
-.about_column{
+.about_column {
   display: grid;
   grid-template-columns: 359px auto;
   grid-template-rows: 275px auto;
 }
 
-.about__logo{
+.about__logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,12 +222,12 @@
   background-color: #000;
 }
 
-.about__logo-image{
+.about__logo-image {
   width: 148px;
   height: 114px;
 }
 
-.about__title{
+.about__title {
   grid-column: 2;
   padding-top: 42px;
   align-self: center;
@@ -241,7 +238,7 @@
   color: #000;
 }
 
-.about__text{
+.about__text {
   grid-area: 2 / 2;
   padding-top: 8px;
   font-weight: 400;
@@ -251,46 +248,43 @@
   color: #000;
 }
 
-.about__text > p:first-child{
+.about__text > p:first-child {
   margin-bottom: 24px;
 }
 
-.footer{
-  margin: 0;
+.footer {
   display: flex;
   justify-content: space-between;
   padding: 0 50px 78px;
 }
 
-.footer__menu-list{
+.footer__menu-list {
   list-style: none;
   text-align: center;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  text-align: center;
   color: #000;
 }
 
-.footer__menu-link{
+.footer__menu-link {
   text-decoration: none;
 }
 
-.footer__social-list{
+.footer__social-list {
   display: flex;
   list-style: none;
   gap:48px;
 }
 
-.footer__social-icon{
+.footer__social-icon {
   max-width: 48px;
 }
 
 .header__contact-information,
-.footer__contact-information{
+.footer__contact-information {
   margin-left: auto;
   padding: 6px 63px 2px 0;
-  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -299,43 +293,42 @@
   color: #000;
 }
 
-.footer__contact-information{
+.footer__contact-information {
   margin: 0;
   padding: 0 38px 0 0;
 }
 
 .header__contact-information-links,
-.footer__contact-information-links{
+.footer__contact-information-links {
   text-decoration: none;
 }
 
 .header__address,
-.footer__address
-{
+.footer__address {
   font-style: normal;
   padding: 1px 0 0 1px;
 }
 
 .header__link_underlined,
-.footer__link_underlined{
+.footer__link_underlined {
   text-decoration: underline 1px solid #000;
   text-underline-offset: 4px;
 }
 
 .header__link_active,
-.footer__link_active{
+.footer__link_active {
   text-decoration: none !important;
 }
 
-.aligned-text_center{
+.aligned-text_center {
   text-align: center;
 }
 
-.aligned-text_right{
+.aligned-text_right {
   text-align: right;
 }
 
-.no_letter_spacing{
+.no_letter_spacing {
   letter-spacing: 0;
 }
 
