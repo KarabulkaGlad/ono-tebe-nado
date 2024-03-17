@@ -307,12 +307,13 @@
 .header__contact-information-links,
 .footer__contact-information-links {
   text-decoration: none;
+  font-style: normal;
 }
 
 .header__address,
 .footer__address {
-  font-style: normal;
   padding: 1px 0 0 1px;
+  font-style: normal;
 }
 
 .header__link_underlined,
